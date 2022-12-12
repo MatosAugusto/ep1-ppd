@@ -1,0 +1,15 @@
+Bootstrap: docker
+From: ufscar/ubuntu_ompi:latest
+
+%help
+        Pi- Pi calculator Seq, Pthreads and OMP on openHPC UFSCar cluster
+%files
+        /home/augusto/PPD/examples/pi-integral/. /opt
+
+%post
+        echo "Compiling programs..."
+        cd /opt && make all
+        cp pi_seq pi_pth pi_omp  /usr/bin/
+
+%runscript
+        exec $@
