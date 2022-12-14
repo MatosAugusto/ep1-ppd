@@ -4,7 +4,7 @@ From: ufscar/ubuntu_ompi:latest
 %help
         Pi- Pi calculator Seq, Pthreads and OMP on openHPC UFSCar cluster
 %files
-        /home/augusto/PPD/examples/pi-integral/. /opt
+        /home/augusto/PPD/EP1/HPC-101/examples/pi-integral/. /opt
 
 %post
         echo "Compiling programs..."
