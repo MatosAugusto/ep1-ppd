@@ -1,0 +1,16 @@
+* SEQUENTIAL *
+pi with 1000000000 steps is 3.141592654 in 4.686367 seconds
+* PTHREAD *
+pi with 1000000000 steps is 3.141592654 in 4.681992 seconds in 1 procs
+pi with 1000000000 steps is 3.141592654 in 2.344264 seconds in 2 procs
+pi with 1000000000 steps is 3.141592654 in 1.039204 seconds in 5 procs
+pi with 1000000000 steps is 3.141592654 in 0.540864 seconds in 10 procs
+pi with 1000000000 steps is 3.141592654 in 0.271517 seconds in 20 procs
+pi with 1000000000 steps is 3.141592654 in 0.271294 seconds in 40 procs
+* OPENMP *
+pi with 1000000000 steps is 3.141592654 in 4.680645 seconds in 1 procs
+pi with 1000000000 steps is 3.141592654 in 2.343244 seconds in 2 procs
+pi with 1000000000 steps is 3.141592654 in 1.025109 seconds in 5 procs
+pi with 1000000000 steps is 3.141592654 in 0.541077 seconds in 10 procs
+pi with 1000000000 steps is 3.141592654 in 0.271351 seconds in 20 procs
+pi with 1000000000 steps is 3.141592654 in 0.272182 seconds in 40 procs
